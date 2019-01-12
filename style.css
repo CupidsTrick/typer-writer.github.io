@@ -15,8 +15,7 @@ body {
 }
 
 .content {
-    margin-top: 20%;
-    margin-left: 5%;
+    margin: 20% 5% 95% 5%; 
 }
 
 a {
@@ -42,11 +41,8 @@ h2 {
 }
 
 footer {
-    margin-top: 10rem;
     text-align: center;
 }
-
-
 /* Cursor */
 .txt-type .txt {
     border-right: 0.2rem solid #777
@@ -60,14 +56,16 @@ footer {
      
 }
 
-@media(max-width: 800px) {
+@media(max-width: 730px) {
     .content {
         margin-top: 20%;
         padding: 0.1rem;
     }
+
     h1 {
         font-size: 3rem;
     }
+         
 }
 
 @media(max-width: 500px) {
@@ -80,6 +78,7 @@ footer {
         font-size: 1.3rem;
         margin-left: -1rem;
     }
+
 }
 
 /* Landscape */
