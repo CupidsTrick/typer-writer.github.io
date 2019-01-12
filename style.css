@@ -15,7 +15,7 @@ body {
 }
 
 .content {
-    margin: 20% 5% 95% 5%; 
+    margin: 20% 5% 92% 5%; 
 }
 
 a {
@@ -50,18 +50,12 @@ footer {
 
 @media(min-width: 1200px) {
     h1 {
-        font-size: 5rem;
-             
+        font-size: 5rem;             
     }
      
 }
 
-@media(max-width: 730px) {
-    .content {
-        margin-top: 20%;
-        padding: 0.1rem;
-    }
-
+@media(max-width: 800px) {
     h1 {
         font-size: 3rem;
     }
@@ -78,17 +72,12 @@ footer {
         font-size: 1.3rem;
         margin-left: -1rem;
     }
-
 }
-
 /* Landscape */
+
 @media (max-height: 500px) {
     .content .title,
     .content .text {
-        display: none;
-    }
-    
-    .content {
-        top: -5.5rem;
-    }
+        display: none;     
+    }    
 }
