@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Thasadith');
 
 html, body {
-    background: url(/_site/img/typer.jpg) no-repeat center center fixed;
+    background: url(/img/typer.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
