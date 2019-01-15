@@ -80,10 +80,3 @@ a:hover {
         font-size: 1.3rem;
     }
 }
-/* Landscape */
-@media (max-height: 500px) {
-    .content .title,
-    .content .text {
-        display: none;
-    }
-}
