@@ -67,7 +67,10 @@ a:hover {
 @media(max-width: 800px) {
     h1 {
         font-size: 3rem;
-    }
+    }    
+    .container.header {
+    margin-left: 1rem;
+}    
     footer {
         font-size: 1rem;
     }
