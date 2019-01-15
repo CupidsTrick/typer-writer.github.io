@@ -11,15 +11,10 @@ html, body {
     color: #ccc;
     width: 100%;
     margin: 0;
-    margin-left: 0;
     padding: 0;
     overflow: hidden;
     display: block;
 }
-.container.header {
-    margin-left: 1rem;
-}
-
 h1, h2 {
     font-weight: 200;
 }
@@ -36,12 +31,12 @@ h2 {
     width: 100%;
 }
 .footer {
-    background-color: #222;
+    background: #222;
     font-size: 1.5rem;
     text-align: center;
     position: absolute;
     bottom: 0rem;
-    width: 100%;  
+    width: 100%;
 }
 a:link {
     color: #aaa;
@@ -59,20 +54,22 @@ a:hover {
 .txt-type .txt {
     border-right: 0.2rem solid #777
 }
+
 @media(min-width: 1200px) {
     h1 {
         font-size: 5rem;        
+    }
+    .iframe{
+        width: 640px;
+        height: 480px;
     }
 }
 @media(max-width: 800px) {
     h1 {
         font-size: 3rem;
-    }    
-    .container.header {
-    margin-left: 1rem;
-}    
+    }
     footer {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
 @media(max-width: 500px) {
